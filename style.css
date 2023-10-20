@@ -1,0 +1,363 @@
+body {
+    margin: 0%;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+}
+
+header .logo {
+    width: 25%;
+    height: 100px;
+}
+.logo,.about h1,.services h1 {
+    text-align: center;
+}
+header nav {
+    width: 75%;
+    height: 100px;
+    color: black
+}
+nav ul li:hover {
+    color: blue;
+}
+::selection {
+    background-color: grey;
+    color: white;
+}
+.nav {
+    text-align: right;
+}
+.float {
+    float: left;
+}
+.clearfix {
+    clear: both;
+    display: table;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 5px;
+}
+
+.home {
+    width: 100%;
+    height: 80vh;
+}
+
+.home button:hover {
+    color: white;
+    background-color: red;
+}
+
+.home .content {
+    width: 50%;
+    height: 80vh;
+}
+
+.content h1,
+.about h1,
+.services h1 {
+    color: #006db7;
+    font-size: 30px;
+}
+
+.content p {
+    font-size: larger;
+}
+
+.flex {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.content button {
+    background-color: #006db7;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+}
+
+.about {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+
+}
+
+.about p,.services p {
+    text-align: justify;
+    line-height: 30px;
+    word-spacing: 10px;
+}
+
+.bg {
+    background-image: url("icabs bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: sticky;
+}
+
+.services {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    background-color: transparent;
+}
+
+.services figure {
+    width: 26%;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.services h2 {
+    color: #006db7;
+    text-align: center;
+}
+.services figcaption {
+    word-spacing: 3px;
+    padding: 15px;
+    text-align: justify;
+
+}
+.services figure img {
+    width: 100%;
+}
+.services figcaption button {
+    background-color: #006db7;
+    color: black;
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-size: large;
+}
+.services button:hover {
+    color: white;
+    background-color: black;
+}
+.quote {
+    width: 100%;
+    height: 20vh;
+}
+.quote h1 {
+    color: #006db7;
+    text-align: center;
+    font-size: 30px;
+}
+
+.quote p {
+    text-align: center;
+}
+.contact {
+    width: 100%;
+}
+.contact img {
+    width: 70%;
+    margin: 10%;
+    text-align: center;
+}
+.contactform {
+    width: 90%;
+    text-align: center;
+    display: flex;
+}
+.contactform button {
+    width: 150px;
+    height: 50px;
+    background-color: #006db7;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+.contactform button:hover {
+    background-color: grey;
+    color: white;
+}
+
+.contactform input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+    height: 50px;
+    width: 150px;
+
+}
+
+.achievements {
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding: 50px;
+    background-image: url("bg.jpg") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: fixed;    
+
+}
+.bg-dark{
+    width: 100%;
+    height: auto; 
+    background-size: cover;   
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.achievements .calender img,.globe img,.car img,.people img {
+    width: 50px;
+    height: 50px;
+}
+
+.achievements div {
+    width: 25%;
+}
+
+.process {
+    width: 35%;
+    height: 250px;
+    padding: 10px;
+    margin: auto;
+}
+
+.process h1 {
+    color: #006db7;
+    text-align: center;
+    font-size: 30px;
+}
+
+.clients {
+    width: 100%;
+    height: 60vh;
+    color: black;
+}
+
+.clients div {
+    width: 25%;
+    text-align: center;
+    margin: 10 10 10 10px;
+    padding: 10 10 10 10px;
+    background-color: transparent;
+}
+.clients img{
+    width: 50px;
+    height: 50px;
+}
+
+.bg-image {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: fixed;
+    width: 100%;
+}
+.bg-dark2{
+    color: rgba(0, 0, 0, 0.685);
+}
+
+.testimonals {
+    width: 80%;
+    height: 60vh;
+    padding: 10px;
+    margin: auto;
+}
+
+.testimonals h1 {
+    text-align: center;
+    color: #006db7;
+}
+
+.testimonals p {
+    text-align: justify;
+}
+
+.testimonals h2 {
+    text-align: right;
+    color: #006db7;
+
+}
+
+.testimonals div p {
+    text-align: right;
+}
+
+.reach {
+    width: 100%;
+    height: 40vh;
+    background-color: #1f2b39;
+    margin-bottom: 0% !important;
+}
+
+.reach div {
+    width: 25%;
+    padding: 5px;
+}
+
+.reach h1, .special h1 {
+    color: yellow;
+    text-align: center;
+}
+
+.reach p,.reach ul {
+    color: white;
+    text-align: center;
+}
+
+.special {
+    width: 100%;
+    height: auto;
+    background-color: #18496b;
+}
+
+.special div {
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.special img {
+    width: 100%;
+    text-align: center;
+    position: cover;
+}
+.special input {
+    padding: 10px;
+    width: 250px;
+    margin: 10px;
+    font-size: x-large;
+    color: black
+}
+
+.special p {
+    text-align: justify;
+    color: white;
+}
+footer{
+    background-color: #1b2c3e;
+    color: white;
+    width: 100%;
+    height: 50px;
+}
+.footer p{
+   margin: 10px;
+}
